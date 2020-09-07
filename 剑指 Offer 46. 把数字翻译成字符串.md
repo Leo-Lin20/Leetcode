@@ -34,7 +34,7 @@ public:
             dfs(s + m[num_2], k + 2);
         }
     }
-
+ 
     int dp(){
         vector<int> arr_dp(str.length() + 1);
         arr_dp[0] = 1;
